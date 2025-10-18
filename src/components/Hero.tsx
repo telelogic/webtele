@@ -4,7 +4,8 @@ import { ArrowRight, MessageSquare } from 'lucide-react';
 import heroImage from '@/assets/hero-bg.jpg';
 import certYealink from '@/assets/cert-yealink.png';
 import certYeastar from '@/assets/cert-yeastar.png';
-import cert3cx from '@/assets/cert-3cx.jpg';
+import cert3cx from '@/assets/cert-3cx.png';
+import certPanasonic from '@/assets/cert-panasonic.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -68,29 +69,36 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="hidden lg:flex flex-col gap-8 items-center justify-center">
-            <div className="grid grid-cols-2 gap-6">
-              <div className="animate-fade-in hover:scale-110 transition-transform duration-300">
+          <div className="hidden lg:flex items-center justify-center">
+            <div className="grid grid-cols-2 gap-8 p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
+              <div className="animate-fade-in hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
                 <img 
                   src={certYealink} 
-                  alt="Yealink Certification" 
-                  className="w-32 h-32 object-contain drop-shadow-glow"
+                  alt="Yealink Microsoft Solutions Certified" 
+                  className="w-40 h-40 object-contain drop-shadow-glow"
                 />
               </div>
-              <div className="animate-fade-in animation-delay-200 hover:scale-110 transition-transform duration-300">
+              <div className="animate-fade-in animation-delay-100 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
                 <img 
                   src={certYeastar} 
-                  alt="Yeastar Certification" 
-                  className="w-32 h-32 object-contain drop-shadow-glow"
+                  alt="Yeastar Certified Technician" 
+                  className="w-40 h-40 object-contain drop-shadow-glow"
                 />
               </div>
-            </div>
-            <div className="animate-fade-in animation-delay-400 hover:scale-110 transition-transform duration-300">
-              <img 
-                src={cert3cx} 
-                alt="3CX Advanced Certification" 
-                className="w-32 h-32 object-contain drop-shadow-glow"
-              />
+              <div className="animate-fade-in animation-delay-200 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+                <img 
+                  src={cert3cx} 
+                  alt="3CX Advanced Certified" 
+                  className="w-40 h-40 object-contain drop-shadow-glow"
+                />
+              </div>
+              <div className="animate-fade-in animation-delay-300 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+                <img 
+                  src={certPanasonic} 
+                  alt="Panasonic COMMS Professional Academy Certified" 
+                  className="w-40 h-40 object-contain drop-shadow-glow"
+                />
+              </div>
             </div>
           </div>
         </div>
