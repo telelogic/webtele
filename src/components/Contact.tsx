@@ -2,12 +2,11 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin } from 'lucide-react';
-
 export const Contact = () => {
-  const { t } = useLanguage();
-
-  return (
-    <section id="contact" className="py-24">
+  const {
+    t
+  } = useLanguage();
+  return <section id="contact" className="py-24">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
@@ -49,7 +48,9 @@ export const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-semibold">Location</p>
-                  <p className="text-muted-foreground">Athens, Greece</p>
+                  <p className="text-muted-foreground">Λ.Κηφισίας 44
+Μαρούσι 151 25
+Athens, Greece</p>
                 </div>
               </div>
 
@@ -60,6 +61,5 @@ export const Contact = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
