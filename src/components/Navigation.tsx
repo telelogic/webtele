@@ -1,6 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageToggle } from '@/components/LanguageToggle';
 import { useState, useEffect } from 'react';
+import telelogicLogo from '@/assets/telelogic-logo.png';
 
 export const Navigation = () => {
   const { t } = useLanguage();
@@ -30,9 +31,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              Telelogic
-            </div>
+            <img src={telelogicLogo} alt="Telelogic" className="h-12" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -53,12 +52,6 @@ export const Navigation = () => {
               className="text-foreground hover:text-primary transition-colors"
             >
               {t('nav.about')}
-            </button>
-            <button
-              onClick={() => scrollToSection('certifications')}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              {t('nav.certifications')}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
