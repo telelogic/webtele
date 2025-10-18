@@ -1,11 +1,19 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MessageSquare } from 'lucide-react';
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
 import heroImage from '@/assets/hero-bg.jpg';
 import certYealink from '@/assets/cert-yealink.png';
 import certYeastar from '@/assets/cert-yeastar.png';
 import cert3cx from '@/assets/cert-3cx.png';
 import certPanasonic from '@/assets/cert-panasonic.png';
+import phone1 from '@/assets/phone-1.png';
+import phone2 from '@/assets/phone-2.png';
+import phone3 from '@/assets/phone-3.png';
+import phone4 from '@/assets/phone-4.png';
+import phone5 from '@/assets/phone-5.png';
+import phone6 from '@/assets/phone-6.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -16,6 +24,15 @@ export const Hero = () => {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  const products = [
+    { image: phone1, alt: 'Fanvil IP Phone with Touchscreen' },
+    { image: phone2, alt: 'Fanvil X210 Enterprise IP Phone' },
+    { image: phone3, alt: 'Fanvil VoIP Desk Phone' },
+    { image: phone4, alt: 'Fanvil Android Smart Phone' },
+    { image: phone5, alt: 'Fanvil Business IP Phone' },
+    { image: phone6, alt: 'Fanvil Hotel IP Phone' },
+  ];
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -102,6 +119,40 @@ export const Hero = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Product Showcase Carousel */}
+      <div className="container mx-auto px-6 relative z-10 mt-16">
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 3000,
+            }),
+          ]}
+          className="w-full"
+        >
+          <CarouselContent>
+            {products.map((product, index) => (
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+                <div className="p-4">
+                  <div className="relative group overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 hover:bg-white/10 transition-all duration-300">
+                    <div className="aspect-square flex items-center justify-center">
+                      <img
+                        src={product.image}
+                        alt={product.alt}
+                        className="w-full h-full object-contain drop-shadow-glow group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
