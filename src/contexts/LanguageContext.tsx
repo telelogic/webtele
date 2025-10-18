@@ -55,6 +55,32 @@ const translations = {
     'contact.title': 'Επικοινωνήστε Μαζί Μας',
     'contact.subtitle': 'Είμαστε εδώ για να σας βοηθήσουμε',
     'contact.getintouch': 'Επικοινωνία',
+    
+    // Footer
+    'footer.privacy': 'Πολιτική Απορρήτου',
+    'footer.terms': 'Όροι Χρήσης',
+    
+    // Privacy Page
+    'privacy.title': 'Πολιτική Απορρήτου',
+    'privacy.section1.title': 'Συλλογή Πληροφοριών',
+    'privacy.section1.content': 'Η Telelogic συλλέγει πληροφορίες που μας παρέχετε άμεσα, όπως όταν επικοινωνείτε μαζί μας ή ζητάτε πληροφορίες για τις υπηρεσίες μας. Αυτές οι πληροφορίες μπορεί να περιλαμβάνουν το όνομά σας, τη διεύθυνση email, τον αριθμό τηλεφώνου και άλλες πληροφορίες επικοινωνίας.',
+    'privacy.section2.title': 'Χρήση Πληροφοριών',
+    'privacy.section2.content': 'Χρησιμοποιούμε τις πληροφορίες που συλλέγουμε για να παρέχουμε, να συντηρούμε και να βελτιώνουμε τις υπηρεσίες μας, να επικοινωνούμε μαζί σας και να ανταποκρινόμαστε στα ερωτήματά σας. Οι πληροφορίες σας χρησιμοποιούνται αποκλειστικά για επαγγελματικούς σκοπούς.',
+    'privacy.section3.title': 'Προστασία Δεδομένων',
+    'privacy.section3.content': 'Η Telelogic λαμβάνει σοβαρά υπόψη την ασφάλεια των προσωπικών σας δεδομένων. Εφαρμόζουμε κατάλληλα τεχνικά και οργανωτικά μέτρα για την προστασία των πληροφοριών σας από μη εξουσιοδοτημένη πρόσβαση, αλλαγή, αποκάλυψη ή καταστροφή.',
+    'privacy.section4.title': 'Τα Δικαιώματά Σας',
+    'privacy.section4.content': 'Έχετε το δικαίωμα πρόσβασης, διόρθωσης ή διαγραφής των προσωπικών σας δεδομένων. Για οποιεσδήποτε ερωτήσεις σχετικά με την πολιτική απορρήτου μας, παρακαλούμε επικοινωνήστε μαζί μας.',
+    
+    // Terms Page
+    'terms.title': 'Όροι Χρήσης',
+    'terms.section1.title': 'Αποδοχή Όρων',
+    'terms.section1.content': 'Με την πρόσβαση και χρήση της ιστοσελίδας της Telelogic, αποδέχεστε και συμφωνείτε να δεσμεύεστε από τους παρόντες όρους και προϋποθέσεις χρήσης. Εάν δεν συμφωνείτε με αυτούς τους όρους, παρακαλούμε μην χρησιμοποιείτε την ιστοσελίδα μας.',
+    'terms.section2.title': 'Χρήση Υπηρεσιών',
+    'terms.section2.content': 'Οι υπηρεσίες που παρέχονται από την Telelogic προορίζονται για επαγγελματική χρήση. Συμφωνείτε να χρησιμοποιείτε τις υπηρεσίες μας σύμφωνα με όλους τους ισχύοντες νόμους και κανονισμούς.',
+    'terms.section3.title': 'Πνευματική Ιδιοκτησία',
+    'terms.section3.content': 'Όλο το περιεχόμενο της ιστοσελίδας, συμπεριλαμβανομένων κειμένων, γραφικών, λογοτύπων και εικόνων, είναι ιδιοκτησία της Telelogic και προστατεύεται από τους νόμους πνευματικής ιδιοκτησίας.',
+    'terms.section4.title': 'Περιορισμός Ευθύνης',
+    'terms.section4.content': 'Η Telelogic δεν φέρει ευθύνη για οποιαδήποτε άμεση, έμμεση, τυχαία ή επακόλουθη ζημία που προκύπτει από τη χρήση ή την αδυναμία χρήσης των υπηρεσιών μας.',
   },
   en: {
     // Navigation
@@ -102,6 +128,32 @@ const translations = {
     'contact.title': 'Contact Us',
     'contact.subtitle': 'We are here to help you',
     'contact.getintouch': 'Get in Touch',
+    
+    // Footer
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms of Use',
+    
+    // Privacy Page
+    'privacy.title': 'Privacy Policy',
+    'privacy.section1.title': 'Information Collection',
+    'privacy.section1.content': 'Telelogic collects information that you provide directly to us, such as when you contact us or request information about our services. This information may include your name, email address, phone number, and other contact information.',
+    'privacy.section2.title': 'Use of Information',
+    'privacy.section2.content': 'We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to respond to your inquiries. Your information is used exclusively for professional purposes.',
+    'privacy.section3.title': 'Data Protection',
+    'privacy.section3.content': 'Telelogic takes the security of your personal data seriously. We implement appropriate technical and organizational measures to protect your information from unauthorized access, alteration, disclosure, or destruction.',
+    'privacy.section4.title': 'Your Rights',
+    'privacy.section4.content': 'You have the right to access, correct, or delete your personal data. For any questions regarding our privacy policy, please contact us.',
+    
+    // Terms Page
+    'terms.title': 'Terms of Use',
+    'terms.section1.title': 'Acceptance of Terms',
+    'terms.section1.content': 'By accessing and using the Telelogic website, you accept and agree to be bound by these terms and conditions of use. If you do not agree with these terms, please do not use our website.',
+    'terms.section2.title': 'Use of Services',
+    'terms.section2.content': 'The services provided by Telelogic are intended for professional use. You agree to use our services in accordance with all applicable laws and regulations.',
+    'terms.section3.title': 'Intellectual Property',
+    'terms.section3.content': 'All website content, including text, graphics, logos, and images, is the property of Telelogic and is protected by intellectual property laws.',
+    'terms.section4.title': 'Limitation of Liability',
+    'terms.section4.content': 'Telelogic shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our services.',
   },
 };
 
