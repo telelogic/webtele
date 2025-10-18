@@ -46,9 +46,7 @@ export const Contact = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-semibold">Location</p>
-                  <p className="text-muted-foreground">Λ.Κηφισίας 44
-Μαρούσι 151 25
-Athens, Greece</p>
+                  <p className="text-muted-foreground">L.Kifisias 44 Marousi 151 25 Athens, Greece</p>
                 </div>
               </div>
 
