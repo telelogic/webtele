@@ -37,8 +37,8 @@ const translations = {
     'services.security.description': 'Προηγμένα συστήματα ασφάλειας για την προστασία των επικοινωνιών σας',
     'services.legacy.title': 'PBX & Hardware',
     'services.legacy.description': 'Υποστήριξη και αναβάθμιση παραδοσιακών τηλεφωνικών συστημάτων',
-    'services.automation.title': 'Αυτοματοποίηση',
-    'services.automation.description': 'Λύσεις αυτοματοποίησης για βελτίωση της αποδοτικότητας',
+    'services.automation.title': 'Ξενοδοχειακές Λύσεις',
+    'services.automation.description': 'Συστήματα υψηλής τεχνολογίας για κάθε Ξενοδοχειακή Μονάδα',
     
     // About Section
     'about.title': 'Σχετικά με την Telelogic',
@@ -84,8 +84,8 @@ const translations = {
     'services.security.description': 'Advanced security systems to protect your communications',
     'services.legacy.title': 'PBX & Hardware',
     'services.legacy.description': 'Support and upgrade of traditional telephone systems',
-    'services.automation.title': 'Automation',
-    'services.automation.description': 'Automation solutions to improve efficiency',
+    'services.automation.title': 'Hotel Solutions',
+    'services.automation.description': 'High-tech systems for every hotel unit',
     
     // About Section
     'about.title': 'About Telelogic',
