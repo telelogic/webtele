@@ -48,7 +48,7 @@ export const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <div className="inline-block animate-fade-in mb-6">
               <span className="px-4 py-2 bg-secondary/20 backdrop-blur-sm text-white rounded-full text-sm font-medium border border-secondary/30">
@@ -119,10 +119,8 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Product Showcase Carousel */}
-      <div className="container mx-auto px-6 relative z-10 mt-16">
+        {/* Product Showcase Carousel */}
         <Carousel
           opts={{
             align: "start",
@@ -133,7 +131,7 @@ export const Hero = () => {
               delay: 3000,
             }),
           ]}
-          className="w-full"
+          className="w-full max-w-6xl mx-auto"
         >
           <CarouselContent>
             {products.map((product, index) => (
