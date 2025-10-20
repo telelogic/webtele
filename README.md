@@ -63,23 +63,37 @@ This project is built with:
 ## AI Assistant (Chat)
 
 - Frontend: Floating chat bubble (`src/components/chat/ChatBubble.tsx`) opens a panel (`src/components/chat/ChatPanel.tsx`).
-- Backend: Azure Functions (SWA `/api`) at `api/chat/index.js` answers strictly from `api/knowledge/telelogic.json`.
+- Backend: Azure Functions (SWA `/api`) at `api/src/functions/chat.js` answers strictly from `api/knowledge.json`.
 - Logo: Replace `public/assistant-logo.svg` with your company logo (keep similar dimensions for best results).
 
-Azure OpenAI (optional):
-- Set environment variables in SWA App Settings to enable refinement:
-	- `AZURE_OPENAI_ENDPOINT` (e.g., https://your-ai-resource.openai.azure.com)
-	- `AZURE_OPENAI_DEPLOYMENT` (model deployment name, e.g., gpt-4o-mini)
-	- `AZURE_OPENAI_API_VERSION` (default: 2024-10-01-preview)
-	- `AZURE_OPENAI_API_KEY` (only if not using Managed Identity)
+### Azure OpenAI (optional)
+Set environment variables in SWA App Settings to enable AI refinement:
+- `AZURE_OPENAI_ENDPOINT` (e.g., https://your-ai-resource.openai.azure.com)
+- `AZURE_OPENAI_DEPLOYMENT` (model deployment name, e.g., gpt-4o-mini)
+- `AZURE_OPENAI_API_VERSION` (default: 2024-10-01-preview)
+- `AZURE_OPENAI_API_KEY` (only if not using Managed Identity)
 
-Knowledge base:
-- Edit `api/knowledge/telelogic.json`. The assistant will only answer from this JSON; otherwise it returns a polite fallback.
+### Knowledge base
+- Edit `api/knowledge.json`. The assistant answers strictly from this JSON; includes English and Greek (`*_el`) fields.
+- Update services and FAQs as needed for your business.
 
-Local dev (optional):
-- Run the frontend (vite) and the functions in separate terminals or via SWA CLI if you prefer.
+### Deployment to Azure Static Web Apps
+The GitHub Actions workflow (`.github/workflows/*.yml`) automatically deploys when you push to main:
 
-## Cookie consent banner
+1. **Frontend**: Builds with Vite, outputs to `dist/`
+2. **API**: Deploys the `/api` folder as managed Azure Functions (Node.js v4)
+3. **Configuration**: Uses `api/host.json` and `api/package.json`
+
+### Local development
+```bash
+# Frontend
+npm run dev
+
+# Functions (optional, in separate terminal)
+cd api
+npm install
+npx func start
+```## Cookie consent banner
 
 This project includes a styled cookie consent banner (`src/components/CookieConsent.tsx`) consistent with the shadcn/tailwind theme.
 

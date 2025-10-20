@@ -3,7 +3,18 @@
   "private": true,
   "type": "module",
   "version": "0.1.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet\""
+  },
   "dependencies": {
     "@azure/functions": "^4.4.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.5455"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
