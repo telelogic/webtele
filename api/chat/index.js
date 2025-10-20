@@ -99,7 +99,7 @@ async function getChatCompletion(endpoint, apiKey, knowledgeBase, userMessage, l
     top_p: 0.9
   };
 
-  const response = await fetch(`${endpoint}/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21`, {
+  const response = await fetch(`${endpoint}/openai/deployments/gpt4o/chat/completions?api-version=2024-10-21`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
