@@ -1,6 +1,6 @@
-import { app } from '@azure/functions';
+const { app } = require('@azure/functions');
 
 // Import all function handlers
-import './functions/chat.js';
+require('./functions/chat.js');
 
-export default app;
+module.exports = app;

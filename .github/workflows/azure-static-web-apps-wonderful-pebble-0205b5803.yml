@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
+          cache-dependency-path: |
+            package-lock.json
+            api/package-lock.json
       
       # Install dependencies for main app
       - name: Install frontend dependencies

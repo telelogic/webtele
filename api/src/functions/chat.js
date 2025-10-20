@@ -1,9 +1,9 @@
 // Azure Functions (Node.js v4) HTTP-triggered function
 // Strictly answers from local knowledge JSON; optionally uses Azure OpenAI for refinement if configured
 
-import { app } from '@azure/functions';
-import fs from 'node:fs/promises';
-import path from 'node:path';
+const { app } = require('@azure/functions');
+const fs = require('node:fs/promises');
+const path = require('node:path');
 
 async function loadKnowledge() {
   try {
