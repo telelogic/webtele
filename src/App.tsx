@@ -7,24 +7,31 @@ import Index from "./pages/Index";
 import Privacy from "./pages/Privacy";
 import TermsOfUse from "./pages/TermsOfUse";
 import NotFound from "./pages/NotFound";
+import { LanguageProvider } from "@/contexts/LanguageContext";
+import { CookieConsent } from "@/components/CookieConsent";
+import { ChatBubble } from "@/components/chat/ChatBubble";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<TermsOfUse />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+    <LanguageProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<TermsOfUse />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <CookieConsent />
+          <ChatBubble />
+        </BrowserRouter>
+      </TooltipProvider>
+    </LanguageProvider>
   </QueryClientProvider>
 );
 

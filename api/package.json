@@ -1,0 +1,9 @@
+{
+  "name": "telelogic-swa-api",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "dependencies": {
+    "@azure/functions": "^4.4.0"
+  }
+}

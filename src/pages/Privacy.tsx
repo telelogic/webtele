@@ -1,6 +1,6 @@
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import { LanguageProvider, useLanguage } from '@/contexts/LanguageContext';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const PrivacyContent = () => {
   const { t } = useLanguage();
@@ -38,11 +38,7 @@ const PrivacyContent = () => {
 };
 
 const Privacy = () => {
-  return (
-    <LanguageProvider>
-      <PrivacyContent />
-    </LanguageProvider>
-  );
+  return <PrivacyContent />;
 };
 
 export default Privacy;

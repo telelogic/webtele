@@ -4,20 +4,18 @@ import { Services } from '@/components/Services';
 import { About } from '@/components/About';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
-import { LanguageProvider } from '@/contexts/LanguageContext';
+// LanguageProvider is provided at App level
 
 const Index = () => {
   return (
-    <LanguageProvider>
-      <div className="min-h-screen bg-background">
-        <Navigation />
-        <Hero />
-        <Services />
-        <About />
-        <Contact />
-        <Footer />
-      </div>
-    </LanguageProvider>
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <Hero />
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 

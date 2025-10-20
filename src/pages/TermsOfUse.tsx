@@ -1,6 +1,6 @@
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import { LanguageProvider, useLanguage } from '@/contexts/LanguageContext';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const TermsContent = () => {
   const { t } = useLanguage();
@@ -38,11 +38,7 @@ const TermsContent = () => {
 };
 
 const TermsOfUse = () => {
-  return (
-    <LanguageProvider>
-      <TermsContent />
-    </LanguageProvider>
-  );
+  return <TermsContent />;
 };
 
 export default TermsOfUse;

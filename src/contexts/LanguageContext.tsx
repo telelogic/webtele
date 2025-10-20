@@ -81,6 +81,22 @@ const translations = {
     'terms.section3.content': 'Όλο το περιεχόμενο της ιστοσελίδας, συμπεριλαμβανομένων κειμένων, γραφικών, λογοτύπων και εικόνων, είναι ιδιοκτησία της Telelogic και προστατεύεται από τους νόμους πνευματικής ιδιοκτησίας.',
     'terms.section4.title': 'Περιορισμός Ευθύνης',
     'terms.section4.content': 'Η Telelogic δεν φέρει ευθύνη για οποιαδήποτε άμεση, έμμεση, τυχαία ή επακόλουθη ζημία που προκύπτει από τη χρήση ή την αδυναμία χρήσης των υπηρεσιών μας.',
+
+    // Cookie Consent
+    'cookie.title': 'Σεβόμαστε την ιδιωτικότητά σας',
+    'cookie.description': 'Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας. Πατώντας Αποδοχή, συμφωνείτε με την Πολιτική Απορρήτου και τους Όρους Χρήσης.',
+    'cookie.accept': 'Αποδοχή',
+    'cookie.decline': 'Απόρριψη',
+    'cookie.privacy': 'Πολιτική Απορρήτου',
+    'cookie.terms': 'Όροι Χρήσης',
+
+    // Chat Assistant
+    'chat.title': 'Βοηθός AI',
+    'chat.subtitle': 'Ρωτήστε για την Telelogic και τις υπηρεσίες μας',
+    'chat.welcome': 'Γεια σας! Είμαι ο Βοηθός AI της Telelogic. Ρωτήστε με οτιδήποτε σχετικά με τις υπηρεσίες μας.',
+    'chat.placeholder': 'Πληκτρολογήστε το μήνυμά σας...',
+    'chat.send': 'Αποστολή',
+    'chat.sending': 'Αποστολή...'
   },
   en: {
     // Navigation
@@ -154,6 +170,22 @@ const translations = {
     'terms.section3.content': 'All website content, including text, graphics, logos, and images, is the property of Telelogic and is protected by intellectual property laws.',
     'terms.section4.title': 'Limitation of Liability',
     'terms.section4.content': 'Telelogic shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our services.',
+    
+    // Cookie Consent
+    'cookie.title': 'We value your privacy',
+    'cookie.description': 'We use cookies to improve your experience. By clicking Accept, you agree to our Privacy Policy and Terms of Use.',
+    'cookie.accept': 'Accept',
+    'cookie.decline': 'Decline',
+    'cookie.privacy': 'Privacy Policy',
+    'cookie.terms': 'Terms of Use',
+
+    // Chat Assistant
+    'chat.title': 'AI Assistant',
+    'chat.subtitle': 'Ask about Telelogic and our services',
+    'chat.welcome': "Hi! I'm the Telelogic AI Assistant. Ask me anything about our services.",
+    'chat.placeholder': 'Type your message...',
+    'chat.send': 'Send',
+    'chat.sending': 'Sending...'
   },
 };
 
