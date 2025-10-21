@@ -47,29 +47,29 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-hero opacity-90" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          <div>
-            <div className="inline-block animate-fade-in mb-6">
-              <span className="px-4 py-2 bg-secondary/20 backdrop-blur-sm text-white rounded-full text-sm font-medium border border-secondary/30">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12 lg:mb-20">
+          <div className="text-center lg:text-left">
+            <div className="inline-block animate-fade-in mb-4 lg:mb-6">
+              <span className="px-3 sm:px-4 py-2 bg-secondary/20 backdrop-blur-sm text-white rounded-full text-xs sm:text-sm font-medium border border-secondary/30 leading-tight">
                 {t('hero.subtitle')}
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 lg:mb-6 animate-fade-in-up leading-tight">
               {t('hero.title')}
             </h1>
             
-            <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-2xl animate-fade-in-up animation-delay-200">
+            <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0 animate-fade-in-up animation-delay-200 leading-relaxed">
               {t('hero.description')}
             </p>
 
-            <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-400">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up animation-delay-400 justify-center lg:justify-start">
               <Button
                 variant="hero"
                 size="lg"
                 onClick={() => scrollToSection('services')}
-                className="gap-2"
+                className="gap-2 w-full sm:w-auto"
               >
                 {t('hero.cta')}
                 <ArrowRight className="h-5 w-5" />
@@ -78,7 +78,7 @@ export const Hero = () => {
                 variant="secondary"
                 size="lg"
                 onClick={() => scrollToSection('contact')}
-                className="gap-2"
+                className="gap-2 w-full sm:w-auto"
               >
                 <MessageSquare className="h-5 w-5" />
                 {t('hero.contact')}
@@ -87,33 +87,33 @@ export const Hero = () => {
           </div>
 
           <div className="hidden lg:flex items-center justify-center">
-            <div className="grid grid-cols-2 gap-8 p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
-              <div className="animate-fade-in hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+            <div className="grid grid-cols-2 gap-4 lg:gap-8 p-6 lg:p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
+              <div className="animate-fade-in hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
                 <img 
                   src={certYealink} 
                   alt="Yealink Microsoft Solutions Certified" 
-                  className="w-40 h-40 object-contain drop-shadow-glow"
+                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
                 />
               </div>
-              <div className="animate-fade-in animation-delay-100 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+              <div className="animate-fade-in animation-delay-100 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
                 <img 
                   src={certYeastar} 
                   alt="Yeastar Certified Technician" 
-                  className="w-40 h-40 object-contain drop-shadow-glow"
+                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
                 />
               </div>
-              <div className="animate-fade-in animation-delay-200 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+              <div className="animate-fade-in animation-delay-200 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
                 <img 
                   src={cert3cx} 
                   alt="3CX Advanced Certified" 
-                  className="w-40 h-40 object-contain drop-shadow-glow"
+                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
                 />
               </div>
-              <div className="animate-fade-in animation-delay-300 hover:scale-110 transition-all duration-300 p-4 bg-white/5 rounded-xl">
+              <div className="animate-fade-in animation-delay-300 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
                 <img 
                   src={certPanasonic} 
                   alt="Panasonic COMMS Professional Academy Certified" 
-                  className="w-40 h-40 object-contain drop-shadow-glow"
+                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
                 />
               </div>
             </div>
