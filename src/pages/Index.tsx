@@ -4,6 +4,7 @@ import { Services } from '@/components/Services';
 import { About } from '@/components/About';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
+import VendorLogos from '@/components/VendorLogos';
 // LanguageProvider is provided at App level
 
 const Index = () => {
@@ -12,6 +13,7 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Services />
+      <VendorLogos />
       <About />
       <Contact />
       <Footer />
