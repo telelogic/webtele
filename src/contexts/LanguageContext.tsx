@@ -49,7 +49,11 @@ const translations = {
     
     // Certifications Section
     'certs.title': 'Πιστοποιήσεις & Συνεργασίες',
-    'certs.subtitle': 'Διαθέτουμε πιστοποιήσεις από τους κορυφαίους κατασκευαστές',
+    'certs.subtitle': 'Κατέχουμε πιστοποιήσεις από κορυφαίους κατασκευαστές',
+    
+    // Vendor Logos Section
+    'vendors.title': 'ΤΕΧΝΟΛΟΓΙΕΣ | ΚΑΤΑΣΚΕΥΑΣΤΕΣ',
+    'vendors.subtitle': 'Κορυφαίοι κατασκευαστές, εγγύηση ποιότητας, αξιόπιστες λύσεις για κάθε επιχείρηση',
     
     // Contact Section
     'contact.title': 'Επικοινωνήστε Μαζί Μας',
@@ -139,6 +143,10 @@ const translations = {
     // Certifications Section
     'certs.title': 'Certifications & Partnerships',
     'certs.subtitle': 'We hold certifications from leading manufacturers',
+    
+    // Vendor Logos Section
+    'vendors.title': 'Trusted Technology Partners',
+    'vendors.subtitle': 'Certified partnerships ensuring reliable, enterprise-grade solutions',
     
     // Contact Section
     'contact.title': 'Contact Us',

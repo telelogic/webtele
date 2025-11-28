@@ -489,4 +489,22 @@ All colors MUST be HSL.
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+  /* Vendor logos infinite scroll animations */
+  @keyframes scroll-infinite {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll-infinite {
+    animation: scroll-infinite 30s linear infinite;
+  }
+
+  .hover\:pause-animation:hover {
+    animation-play-state: paused;
+  }
 }
