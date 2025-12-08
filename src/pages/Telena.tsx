@@ -14,7 +14,8 @@ import productCatalog from "@/data/telena/productCatalog.json";
 const Telena = () => {
   const { t, language } = useLanguage();
   
-  const publicApiKey = import.meta.env.VITE_COPILOTKIT_API_KEY;
+  // Use environment variable or fallback to hardcoded public key
+  const publicApiKey = import.meta.env.VITE_COPILOTKIT_API_KEY || "ck_pub_185b0a7ccdd1e83894e8bf77170a9712";
 
   // Concise core system instructions - detailed knowledge is injected via useCopilotReadable
   const systemInstructions = `You are Telena, a professional telecommunications consultant for Telelogic Unified Communications in Greece. You specialize in Cloud PBX systems, business telephony solutions, and ISDN to SIP migration.
