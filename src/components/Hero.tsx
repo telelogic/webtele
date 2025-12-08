@@ -13,6 +13,8 @@ import phone1 from '@/assets/cert-3cx.png';
 import phone2 from '@/assets/cert-yeastar.png';
 import phone3 from '@/assets/m365cert.png';
 import phone4 from '@/assets/cert-yealink.png';
+import phone5 from '@/assets/cert-panasonic.png';
+import phone6 from '@/assets/oraclecert.png';
 import photo1 from '@/assets/awscert.png';
 import photo2 from '@/assets/azcets.png';
 import photo3 from '@/assets/copilotcert.png';
