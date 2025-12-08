@@ -1,0 +1,337 @@
+{
+  "vendor": "3CX",
+  "currency": "EUR",
+  "pricingModel": "annual-subscription",
+  "note": "3CX Professional and Enterprise editions with self-hosted or 3CX-hosted deployment options. Enterprise pricing is approximately 33% higher than Professional.",
+  "editions": {
+    "professional": {
+      "name": "Professional",
+      "nameGreek": "Professional",
+      "description": "Full-featured system for growing businesses with call center capabilities",
+      "descriptionGreek": "Πλήρες σύστημα για αναπτυσσόμενες επιχειρήσεις με δυνατότητες call center",
+      "tiers": [
+        {
+          "simultaneousCalls": 8,
+          "maxUsers": 40,
+          "recommendedUsers": "16–40",
+          "annualPriceSelfHosted": 350,
+          "annualPriceHostedBy3CX": 645,
+          "monthlyEquivalentSelfHosted": 29.17,
+          "monthlyEquivalentHostedBy3CX": 53.75
+        },
+        {
+          "simultaneousCalls": 16,
+          "maxUsers": 80,
+          "recommendedUsers": "41–80",
+          "annualPriceSelfHosted": 1145,
+          "annualPriceHostedBy3CX": 1145,
+          "monthlyEquivalentSelfHosted": 95.42,
+          "monthlyEquivalentHostedBy3CX": 95.42
+        },
+        {
+          "simultaneousCalls": 24,
+          "maxUsers": 120,
+          "recommendedUsers": "81–120",
+          "annualPriceSelfHosted": 1095,
+          "annualPriceHostedBy3CX": 1490,
+          "monthlyEquivalentSelfHosted": 91.25,
+          "monthlyEquivalentHostedBy3CX": 124.17
+        },
+        {
+          "simultaneousCalls": 32,
+          "maxUsers": 192,
+          "recommendedUsers": "121–192",
+          "annualPriceSelfHosted": 1395,
+          "annualPriceHostedBy3CX": 2190,
+          "monthlyEquivalentSelfHosted": 116.25,
+          "monthlyEquivalentHostedBy3CX": 182.5
+        },
+        {
+          "simultaneousCalls": 48,
+          "maxUsers": 288,
+          "recommendedUsers": "193–288",
+          "annualPriceSelfHosted": 2195,
+          "annualPriceHostedBy3CX": 2990,
+          "monthlyEquivalentSelfHosted": 182.92,
+          "monthlyEquivalentHostedBy3CX": 249.17
+        },
+        {
+          "simultaneousCalls": 64,
+          "maxUsers": 384,
+          "recommendedUsers": "289–384",
+          "annualPriceSelfHosted": 2895,
+          "annualPriceHostedBy3CX": 3690,
+          "monthlyEquivalentSelfHosted": 241.25,
+          "monthlyEquivalentHostedBy3CX": 307.5
+        },
+        {
+          "simultaneousCalls": 96,
+          "maxUsers": 672,
+          "recommendedUsers": "385–672",
+          "annualPriceSelfHosted": 4495,
+          "annualPriceHostedBy3CX": 6190,
+          "monthlyEquivalentSelfHosted": 374.58,
+          "monthlyEquivalentHostedBy3CX": 515.83
+        },
+        {
+          "simultaneousCalls": 128,
+          "maxUsers": 896,
+          "recommendedUsers": "673–896",
+          "annualPriceSelfHosted": 5995,
+          "annualPriceHostedBy3CX": 7690,
+          "monthlyEquivalentSelfHosted": 499.58,
+          "monthlyEquivalentHostedBy3CX": 640.83
+        },
+        {
+          "simultaneousCalls": 192,
+          "maxUsers": 1344,
+          "recommendedUsers": "897–1344",
+          "annualPriceSelfHosted": 8995,
+          "annualPriceHostedBy3CX": 10990,
+          "monthlyEquivalentSelfHosted": 749.58,
+          "monthlyEquivalentHostedBy3CX": 915.83
+        },
+        {
+          "simultaneousCalls": 256,
+          "maxUsers": 2048,
+          "recommendedUsers": "1345–2048",
+          "annualPriceSelfHosted": 11995,
+          "annualPriceHostedBy3CX": 13990,
+          "monthlyEquivalentSelfHosted": 999.58,
+          "monthlyEquivalentHostedBy3CX": 1165.83
+        },
+        {
+          "simultaneousCalls": 512,
+          "maxUsers": 4096,
+          "recommendedUsers": "2049–4096",
+          "annualPriceSelfHosted": 18995,
+          "annualPriceHostedBy3CX": null,
+          "monthlyEquivalentSelfHosted": 1582.92,
+          "monthlyEquivalentHostedBy3CX": null
+        },
+        {
+          "simultaneousCalls": 1024,
+          "maxUsers": 8192,
+          "recommendedUsers": "4097–8192",
+          "annualPriceSelfHosted": 34995,
+          "annualPriceHostedBy3CX": null,
+          "monthlyEquivalentSelfHosted": 2916.25,
+          "monthlyEquivalentHostedBy3CX": null
+        }
+      ],
+      "features": {
+        "queues": true,
+        "callCenter": true,
+        "hotDesking": true,
+        "crmIntegrations": "Advanced (Salesforce, HubSpot, Zoho, etc.)",
+        "hotelPMS": false,
+        "advancedReporting": true,
+        "departmentManagement": true,
+        "videoConferencing": true,
+        "mobileApps": true,
+        "webClient": true,
+        "callRecording": true,
+        "webRTC": true
+      }
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "nameGreek": "Enterprise",
+      "description": "Premium edition with enhanced features, hotel PMS, and priority support - approximately 33% more than Professional",
+      "descriptionGreek": "Premium έκδοση με βελτιωμένα χαρακτηριστικά, hotel PMS, και προτεραιότητα υποστήριξης - περίπου 33% πάνω από Professional",
+      "pricingNote": "Enterprise pricing is calculated as Professional price × 1.33",
+      "pricingNoteGreek": "Η τιμολόγηση Enterprise υπολογίζεται ως τιμή Professional × 1.33",
+      "tiers": [
+        {
+          "simultaneousCalls": 8,
+          "maxUsers": 40,
+          "recommendedUsers": "16–40",
+          "annualPriceSelfHosted": 466,
+          "annualPriceHostedBy3CX": 858,
+          "monthlyEquivalentSelfHosted": 38.83,
+          "monthlyEquivalentHostedBy3CX": 71.5
+        },
+        {
+          "simultaneousCalls": 16,
+          "maxUsers": 80,
+          "recommendedUsers": "41–80",
+          "annualPriceSelfHosted": 1523,
+          "annualPriceHostedBy3CX": 1523,
+          "monthlyEquivalentSelfHosted": 126.92,
+          "monthlyEquivalentHostedBy3CX": 126.92
+        },
+        {
+          "simultaneousCalls": 24,
+          "maxUsers": 120,
+          "recommendedUsers": "81–120",
+          "annualPriceSelfHosted": 1456,
+          "annualPriceHostedBy3CX": 1982,
+          "monthlyEquivalentSelfHosted": 121.33,
+          "monthlyEquivalentHostedBy3CX": 165.17
+        },
+        {
+          "simultaneousCalls": 32,
+          "maxUsers": 192,
+          "recommendedUsers": "121–192",
+          "annualPriceSelfHosted": 1856,
+          "annualPriceHostedBy3CX": 2913,
+          "monthlyEquivalentSelfHosted": 154.67,
+          "monthlyEquivalentHostedBy3CX": 242.75
+        },
+        {
+          "simultaneousCalls": 48,
+          "maxUsers": 288,
+          "recommendedUsers": "193–288",
+          "annualPriceSelfHosted": 2920,
+          "annualPriceHostedBy3CX": 3977,
+          "monthlyEquivalentSelfHosted": 243.33,
+          "monthlyEquivalentHostedBy3CX": 331.42
+        },
+        {
+          "simultaneousCalls": 64,
+          "maxUsers": 384,
+          "recommendedUsers": "289–384",
+          "annualPriceSelfHosted": 3850,
+          "annualPriceHostedBy3CX": 4908,
+          "monthlyEquivalentSelfHosted": 320.83,
+          "monthlyEquivalentHostedBy3CX": 409
+        },
+        {
+          "simultaneousCalls": 96,
+          "maxUsers": 672,
+          "recommendedUsers": "385–672",
+          "annualPriceSelfHosted": 5978,
+          "annualPriceHostedBy3CX": 8233,
+          "monthlyEquivalentSelfHosted": 498.17,
+          "monthlyEquivalentHostedBy3CX": 686.08
+        },
+        {
+          "simultaneousCalls": 128,
+          "maxUsers": 896,
+          "recommendedUsers": "673–896",
+          "annualPriceSelfHosted": 7973,
+          "annualPriceHostedBy3CX": 10228,
+          "monthlyEquivalentSelfHosted": 664.42,
+          "monthlyEquivalentHostedBy3CX": 852.33
+        },
+        {
+          "simultaneousCalls": 192,
+          "maxUsers": 1344,
+          "recommendedUsers": "897–1344",
+          "annualPriceSelfHosted": 11963,
+          "annualPriceHostedBy3CX": 14617,
+          "monthlyEquivalentSelfHosted": 996.92,
+          "monthlyEquivalentHostedBy3CX": 1218.08
+        },
+        {
+          "simultaneousCalls": 256,
+          "maxUsers": 2048,
+          "recommendedUsers": "1345–2048",
+          "annualPriceSelfHosted": 15953,
+          "annualPriceHostedBy3CX": 18607,
+          "monthlyEquivalentSelfHosted": 1329.42,
+          "monthlyEquivalentHostedBy3CX": 1550.58
+        },
+        {
+          "simultaneousCalls": 512,
+          "maxUsers": 4096,
+          "recommendedUsers": "2049–4096",
+          "annualPriceSelfHosted": 25263,
+          "annualPriceHostedBy3CX": null,
+          "monthlyEquivalentSelfHosted": 2105.25,
+          "monthlyEquivalentHostedBy3CX": null
+        },
+        {
+          "simultaneousCalls": 1024,
+          "maxUsers": 8192,
+          "recommendedUsers": "4097–8192",
+          "annualPriceSelfHosted": 46543,
+          "annualPriceHostedBy3CX": null,
+          "monthlyEquivalentSelfHosted": 3878.58,
+          "monthlyEquivalentHostedBy3CX": null
+        }
+      ],
+      "features": {
+        "allProfessionalFeatures": true,
+        "hotelPMS": true,
+        "failover": true,
+        "multiTenant": false,
+        "dedicatedSupport": true,
+        "priorityUpdates": true,
+        "customBranding": false,
+        "advancedSecurity": true,
+        "slaGuarantee": true
+      }
+    }
+  },
+  "deploymentOptions": {
+    "selfHosted": {
+      "name": "Self-Hosted",
+      "nameGreek": "Αυτο-Φιλοξενούμενο",
+      "description": "Install on your own servers (Windows, Linux, or VM). You manage infrastructure.",
+      "descriptionGreek": "Εγκατάσταση σε δικούς σας servers (Windows, Linux, ή VM). Εσείς διαχειρίζεστε την υποδομή.",
+      "pros": [
+        "Lower annual cost",
+        "Full control over infrastructure",
+        "No dependency on 3CX hosting",
+        "Can use existing servers"
+      ],
+      "prosGreek": [
+        "Χαμηλότερο ετήσιο κόστος",
+        "Πλήρης έλεγχος υποδομής",
+        "Χωρίς εξάρτηση από 3CX hosting",
+        "Χρήση υπάρχουσας υποδομής"
+      ],
+      "cons": [
+        "Requires server management",
+        "You handle backups and updates",
+        "Need technical expertise"
+      ],
+      "consGreek": [
+        "Απαιτεί διαχείριση server",
+        "Εσείς χειρίζεστε backups και updates",
+        "Χρειάζεται τεχνική εξειδίκευση"
+      ]
+    },
+    "hostedBy3CX": {
+      "name": "Hosted by 3CX",
+      "nameGreek": "Φιλοξενείται από 3CX",
+      "description": "Fully managed cloud hosting by 3CX. Maintenance, backups, and updates included.",
+      "descriptionGreek": "Πλήρως διαχειριζόμενο cloud hosting από 3CX. Συμπεριλαμβάνονται συντήρηση, backups, και updates.",
+      "pros": [
+        "Zero infrastructure management",
+        "Automatic updates and backups",
+        "99.9% uptime SLA",
+        "Quick deployment"
+      ],
+      "prosGreek": [
+        "Μηδενική διαχείριση υποδομής",
+        "Αυτόματα updates και backups",
+        "99.9% uptime SLA",
+        "Γρήγορη εγκατάσταση"
+      ],
+      "cons": [
+        "Higher annual cost",
+        "Dependency on 3CX infrastructure",
+        "Less control over hosting"
+      ],
+      "consGreek": [
+        "Υψηλότερο ετήσιο κόστος",
+        "Εξάρτηση από υποδομή 3CX",
+        "Λιγότερος έλεγχος hosting"
+      ]
+    }
+  },
+  "additionalCosts": {
+    "setupAndConfiguration": {
+      "estimate": "€400-€1200",
+      "estimateGreek": "€400-€1200",
+      "note": "Depends on complexity, number of users, and integrations",
+      "noteGreek": "Εξαρτάται από πολυπλοκότητα, αριθμό χρηστών, και ενσωματώσεις"
+    },
+    "sipTrunkChannels": {
+      "note": "Required for external calling - priced separately by SIP provider",
+      "noteGreek": "Απαιτούνται για εξωτερικές κλήσεις - τιμολογούνται ξεχωριστά από τον πάροχο SIP"
+    }
+  }
+}

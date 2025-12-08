@@ -100,7 +100,33 @@ const translations = {
     'chat.welcome': 'Γεια σας! Είμαι ο Βοηθός AI της Telelogic. Ρωτήστε με οτιδήποτε σχετικά με τις υπηρεσίες μας.',
     'chat.placeholder': 'Πληκτρολογήστε το μήνυμά σας...',
     'chat.send': 'Αποστολή',
-    'chat.sending': 'Αποστολή...'
+    'chat.sending': 'Αποστολή...',
+    
+    // Telena AI Consultant
+    'telena.title': 'Telena - Σύμβουλος Τηλεπικοινωνιών',
+    'telena.subtitle': 'Ειδική Σύμβουλος Cloud PBX & Επιχειρηματικής Τηλεφωνίας',
+    'telena.welcome': 'Καλώς ήρθατε στην Telena',
+    'telena.intro': 'Είμαι η Telena, ειδική σύμβουλος τηλεπικοινωνιών της Telelogic. Μπορώ να σας βοηθήσω με:',
+    'telena.capability1': 'Υπολογισμό κόστους τηλεφωνικών συστημάτων',
+    'telena.capability2': 'Επιλογή κατάλληλου πακέτου Cloud PBX',
+    'telena.capability3': 'Μετάβαση από ISDN σε SIP',
+    'telena.capability4': 'Τεχνική υποστήριξη και συμβουλές',
+    'telena.question.sip': 'Τι είναι το SIP;',
+    'telena.question.cloudpbx': 'Πως λειτουργεί το Cloud PBX;',
+    'telena.question.benefits': 'Με συμφέρει το Cloud;',
+    'telena.question.costs': 'Πόσο κοστίζει για την επιχείρησή μου;',
+    'telena.packages.title': 'Πακέτα Cloud PBX',
+    'telena.packages.basic': 'Basic',
+    'telena.packages.professional': 'Professional',
+    'telena.packages.enterprise': 'Enterprise',
+    'telena.calculator.title': 'Υπολογισμός Κόστους',
+    'telena.calculator.users': 'Χρήστες',
+    'telena.calculator.branches': 'Υποκαταστήματα',
+    'telena.calculator.isdnLines': 'Γραμμές ISDN',
+    'telena.calculator.mobileLicenses': 'Mobile Licenses',
+    'telena.calculator.monthly': 'Μηνιαίο Κόστος',
+    'telena.calculator.setup': 'Κόστος Εγκατάστασης',
+    'telena.calculator.total': 'Συνολικό'
   },
   en: {
     // Navigation
@@ -193,7 +219,33 @@ const translations = {
     'chat.welcome': "Hi! I'm the Telelogic AI Assistant. Ask me anything about our services.",
     'chat.placeholder': 'Type your message...',
     'chat.send': 'Send',
-    'chat.sending': 'Sending...'
+    'chat.sending': 'Sending...',
+    
+    // Telena AI Consultant
+    'telena.title': 'Telena - Telecommunications Consultant',
+    'telena.subtitle': 'Cloud PBX & Business Telephony Specialist',
+    'telena.welcome': 'Welcome to Telena',
+    'telena.intro': "I'm Telena, Telelogic's telecommunications specialist. I can help you with:",
+    'telena.capability1': 'Calculate telephony system costs',
+    'telena.capability2': 'Select the right Cloud PBX package',
+    'telena.capability3': 'Migrate from ISDN to SIP',
+    'telena.capability4': 'Technical support and consultation',
+    'telena.question.sip': 'What is SIP?',
+    'telena.question.cloudpbx': 'How does Cloud PBX work?',
+    'telena.question.benefits': 'Is Cloud right for me?',
+    'telena.question.costs': 'How much does it cost for my business?',
+    'telena.packages.title': 'Cloud PBX Packages',
+    'telena.packages.basic': 'Basic',
+    'telena.packages.professional': 'Professional',
+    'telena.packages.enterprise': 'Enterprise',
+    'telena.calculator.title': 'Cost Calculator',
+    'telena.calculator.users': 'Users',
+    'telena.calculator.branches': 'Branches',
+    'telena.calculator.isdnLines': 'ISDN Lines',
+    'telena.calculator.mobileLicenses': 'Mobile Licenses',
+    'telena.calculator.monthly': 'Monthly Cost',
+    'telena.calculator.setup': 'Setup Cost',
+    'telena.calculator.total': 'Total'
   },
 };
 

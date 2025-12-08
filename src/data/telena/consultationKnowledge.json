@@ -1,0 +1,84 @@
+{
+  "technicalKnowledge": {
+    "cloudPBX": {
+      "description": "Το Cloud PBX είναι σύγχρονο τηλεφωνικό κέντρο που λειτουργεί μέσω διαδικτύου. Αντικαθιστά τα παραδοσιακά PBX hardware συστήματα με cloud-based λύση.",
+      "descriptionEn": "Cloud PBX is a modern phone system that operates via the internet. It replaces traditional hardware PBX systems with a cloud-based solution.",
+      "benefits": [
+        "Χωρίς hardware / No hardware required",
+        "Remote work support / Υποστήριξη τηλεργασίας",
+        "Εύκολη κλιμάκωση / Easy scaling",
+        "Χαμηλότερο κόστος συντήρησης / Lower maintenance cost"
+      ]
+    },
+    "sipProtocol": {
+      "description": "Το SIP είναι το πρωτόκολλο που χρησιμοποιείται για κλήσεις μέσω διαδικτύου (VoIP). Επιτρέπει τη μετάδοση φωνής σε IP δίκτυα.",
+      "descriptionEn": "SIP is the protocol used for internet calls (VoIP). It enables voice transmission over IP networks.",
+      "details": "Το SIP trunk είναι η εικονική 'γραμμή' που συνδέει το τηλεφωνικό σας σύστημα με το δημόσιο τηλεφωνικό δίκτυο μέσω internet. / SIP trunk is the virtual 'line' that connects your phone system to the public telephone network via internet."
+    },
+    "isdnMigration": {
+      "description": "Οι παραδοσιακές γραμμές ISDN (Integrated Services Digital Network) σταδιακά καταργούνται. Η μετάβαση σε SIP/Cloud PBX προσφέρει: μειωμένο κόστος, περισσότερες δυνατότητες, ευελιξία, και μελλοντική συμβατότητα.",
+      "descriptionEn": "Traditional ISDN lines (Integrated Services Digital Network) are being phased out. Migration to SIP/Cloud PBX offers: reduced cost, more features, flexibility, and future compatibility.",
+      "conversionRules": {
+        "isdnBRI": "Each ISDN BRI line = 2 simultaneous calls / Κάθε γραμμή ISDN BRI = 2 ταυτόχρονες κλήσεις",
+        "sipChannelFormula": "Recommended SIP channels = (ISDN lines × 2) + 2 buffer channels",
+        "example": "2 ISDN lines → 6 SIP channels recommended (4 active + 2 buffer)"
+      }
+    }
+  },
+  "consultationApproach": {
+    "steps": [
+      {
+        "step": 1,
+        "name": "CLARIFY",
+        "nameGreek": "ΔΙΕΥΚΡΙΝΗΣΗ",
+        "actions": [
+          "Number of phone users / Αριθμός χρηστών τηλεφώνου",
+          "Current ISDN lines (if any) / Τρέχουσες γραμμές ISDN (αν υπάρχουν)",
+          "Number of branches/locations / Αριθμός υποκαταστημάτων",
+          "Need for mobile access / Ανάγκη για mobile πρόσβαση",
+          "Special requirements (call recording, CRM integration, etc.) / Ειδικές απαιτήσεις"
+        ]
+      },
+      {
+        "step": 2,
+        "name": "RECOMMEND PACKAGE",
+        "nameGreek": "ΠΡΟΤΑΣΗ ΠΑΚΕΤΟΥ",
+        "actions": [
+          "Analyze user count and requirements / Ανάλυση αριθμού χρηστών και απαιτήσεων",
+          "Suggest appropriate package tier / Πρόταση κατάλληλου πακέτου",
+          "Explain why this package fits / Εξήγηση γιατί ταιριάζει"
+        ]
+      },
+      {
+        "step": 3,
+        "name": "CALCULATE COSTS",
+        "nameGreek": "ΥΠΟΛΟΓΙΣΜΟΣ ΚΟΣΤΟΥΣ",
+        "actions": [
+          "Use calculateCloudPBXCosts tool / Χρήση εργαλείου υπολογισμού",
+          "Show itemized breakdown / Εμφάνιση αναλυτικού κόστους",
+          "Explain first year vs recurring costs / Εξήγηση πρώτου έτους vs επαναλαμβανόμενου"
+        ]
+      },
+      {
+        "step": 4,
+        "name": "HIGHLIGHT BENEFITS",
+        "nameGreek": "ΟΦΕΛΗ",
+        "actions": [
+          "Cost savings vs current solution / Εξοικονόμηση vs τρέχουσα λύση",
+          "New capabilities gained / Νέες δυνατότητες",
+          "Scalability for future growth / Κλιμάκωση για μελλοντική ανάπτυξη"
+        ]
+      }
+    ]
+  },
+  "exampleResponses": {
+    "greek": {
+      "standardQuote": "Με βάση τις ανάγκες σας ({users} χρήστες, {branches} υποκαταστήματα), σας προτείνω το {package} Package. Θα χρησιμοποιήσω το εργαλείο υπολογισμού για να σας δώσω ακριβές κόστος.",
+      "offTopic": "Συγγνώμη, είμαι εξειδικευμένη σύμβουλος τηλεπικοινωνιών και μπορώ να βοηθήσω μόνο με θέματα Cloud PBX, SIP τηλεφωνίας και τηλεπικοινωνιακών λύσεων. Πώς μπορώ να σας βοηθήσω με το τηλεφωνικό σας σύστημα?"
+    },
+    "english": {
+      "standardQuote": "Based on your needs ({users} users, {branches} branches), I recommend the {package} Package. Let me use the calculator tool to provide you with exact costs.",
+      "offTopic": "I'm sorry, I'm a specialized telecommunications consultant and can only assist with Cloud PBX, SIP telephony, and business phone systems. How can I help you with your telecommunications needs?"
+    }
+  }
+}

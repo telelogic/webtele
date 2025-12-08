@@ -1,0 +1,386 @@
+{
+  "currency": "EUR",
+  "packageFamilies": {
+    "basic": {
+      "id": "basic",
+      "name": "Basic",
+      "nameGreek": "Βασικό",
+      "description": "Essential Cloud PBX for small businesses",
+      "descriptionGreek": "Βασικό Cloud PBX για μικρές επιχειρήσεις",
+      "setupFee": 120.00,
+      "tiers": [
+        {
+          "id": "basic-xxs",
+          "name": "Basic XXS",
+          "extensions": { "min": 2, "max": 2, "display": "2" },
+          "annualPrice": 49.00,
+          "monthlyEquivalent": 4.08,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 1,
+            "musicOnHold": true,
+            "timeConditions": 1,
+            "ringGroups": 1,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": false,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        },
+        {
+          "id": "basic-xs",
+          "name": "Basic XS",
+          "extensions": { "min": 3, "max": 6, "display": "3 to 6" },
+          "annualPrice": 69.00,
+          "monthlyEquivalent": 5.75,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 2,
+            "musicOnHold": true,
+            "timeConditions": 2,
+            "ringGroups": 2,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        },
+        {
+          "id": "basic-s",
+          "name": "Basic S",
+          "extensions": { "min": 7, "max": 10, "display": "7 to 10" },
+          "annualPrice": 90.00,
+          "monthlyEquivalent": 7.50,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 2,
+            "musicOnHold": true,
+            "timeConditions": 2,
+            "ringGroups": 3,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        },
+        {
+          "id": "basic-m",
+          "name": "Basic M",
+          "extensions": { "min": 11, "max": 14, "display": "11 to 14" },
+          "annualPrice": 125.00,
+          "monthlyEquivalent": 10.42,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 2,
+            "ivrMenus": 3,
+            "musicOnHold": true,
+            "timeConditions": 4,
+            "ringGroups": 4,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        },
+        {
+          "id": "basic-l",
+          "name": "Basic L",
+          "extensions": { "min": 15, "max": 19, "display": "15 to 19" },
+          "annualPrice": 145.00,
+          "monthlyEquivalent": 12.08,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 3,
+            "ivrMenus": 4,
+            "musicOnHold": true,
+            "timeConditions": 4,
+            "ringGroups": 6,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        },
+        {
+          "id": "basic-xl",
+          "name": "Basic XL",
+          "extensions": { "min": 20, "max": 25, "display": "20 to 25" },
+          "annualPrice": 189.00,
+          "monthlyEquivalent": 15.75,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 4,
+            "ivrMenus": 6,
+            "musicOnHold": true,
+            "timeConditions": 6,
+            "ringGroups": 8,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": false,
+            "callCenter": 0,
+            "operatorPanel": 0,
+            "callBroadcast": 0,
+            "queues": 0
+          }
+        }
+      ]
+    },
+    "professional": {
+      "id": "professional",
+      "name": "Professional",
+      "nameGreek": "Επαγγελματικό",
+      "description": "Advanced Cloud PBX with call center features for growing businesses",
+      "descriptionGreek": "Προηγμένο Cloud PBX με δυνατότητες call center για αναπτυσσόμενες επιχειρήσεις",
+      "setupFee": 140.00,
+      "tiers": [
+        {
+          "id": "professional-xxs",
+          "name": "Professional XXS",
+          "extensions": { "min": 2, "max": 2, "display": "2" },
+          "annualPrice": 45.00,
+          "monthlyEquivalent": 3.75,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 1,
+            "musicOnHold": true,
+            "timeConditions": 1,
+            "ringGroups": 1,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": false,
+            "clickToCall": false,
+            "callCenter": 1,
+            "operatorPanel": 1,
+            "callBroadcast": 1,
+            "queues": 1
+          }
+        },
+        {
+          "id": "professional-xs",
+          "name": "Professional XS",
+          "extensions": { "min": 3, "max": 6, "display": "3 to 6" },
+          "annualPrice": 75.00,
+          "monthlyEquivalent": 6.25,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 2,
+            "musicOnHold": true,
+            "timeConditions": 2,
+            "ringGroups": 2,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": true,
+            "callCenter": 1,
+            "operatorPanel": 1,
+            "callBroadcast": 1,
+            "queues": 1
+          }
+        },
+        {
+          "id": "professional-s",
+          "name": "Professional S",
+          "extensions": { "min": 7, "max": 10, "display": "7 to 10" },
+          "annualPrice": 95.00,
+          "monthlyEquivalent": 7.92,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 1,
+            "ivrMenus": 2,
+            "musicOnHold": true,
+            "timeConditions": 2,
+            "ringGroups": 3,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": true,
+            "callCenter": 2,
+            "operatorPanel": 2,
+            "callBroadcast": 2,
+            "queues": 2
+          }
+        },
+        {
+          "id": "professional-m",
+          "name": "Professional M",
+          "extensions": { "min": 11, "max": 14, "display": "11 to 14" },
+          "annualPrice": 145.00,
+          "monthlyEquivalent": 12.08,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 2,
+            "ivrMenus": 3,
+            "musicOnHold": true,
+            "timeConditions": 4,
+            "ringGroups": 4,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": true,
+            "callCenter": 2,
+            "operatorPanel": 2,
+            "callBroadcast": 2,
+            "queues": 2
+          }
+        },
+        {
+          "id": "professional-l",
+          "name": "Professional L",
+          "extensions": { "min": 15, "max": 19, "display": "15 to 19" },
+          "annualPrice": 165.00,
+          "monthlyEquivalent": 13.75,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 3,
+            "ivrMenus": 4,
+            "musicOnHold": true,
+            "timeConditions": 4,
+            "ringGroups": 6,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": true,
+            "callCenter": 3,
+            "operatorPanel": 3,
+            "callBroadcast": 3,
+            "queues": 3
+          }
+        },
+        {
+          "id": "professional-xl",
+          "name": "Professional XL",
+          "extensions": { "min": 20, "max": 25, "display": "20 to 25" },
+          "annualPrice": 220.00,
+          "monthlyEquivalent": 18.33,
+          "features": {
+            "sipTrunks": "unlimited",
+            "dids": "unlimited",
+            "voicemails": "per-extension",
+            "recordings": true,
+            "conferenceRooms": 4,
+            "ivrMenus": 6,
+            "musicOnHold": true,
+            "timeConditions": 6,
+            "ringGroups": 8,
+            "contacts": "unlimited",
+            "followMe": "per-extension",
+            "callBlock": "unlimited",
+            "faxSendReceive": true,
+            "clickToCall": true,
+            "callCenter": 4,
+            "operatorPanel": 4,
+            "callBroadcast": 4,
+            "queues": 4
+          }
+        }
+      ]
+    }
+  },
+  "featureDescriptions": {
+    "sipTrunks": {
+      "name": "SIP Trunks & DIDs",
+      "nameGreek": "Γραμμές SIP & Αριθμοί",
+      "description": "Virtual phone lines for making and receiving calls"
+    },
+    "recordings": {
+      "name": "Call Recordings",
+      "nameGreek": "Ηχογραφήσεις Κλήσεων",
+      "description": "Record calls for quality and training purposes"
+    },
+    "conferenceRooms": {
+      "name": "Conference Rooms",
+      "nameGreek": "Αίθουσες Τηλεδιάσκεψης",
+      "description": "Multi-party conference calling"
+    },
+    "ivrMenus": {
+      "name": "IVR Menus",
+      "nameGreek": "Μενού IVR",
+      "description": "Interactive voice response menus"
+    },
+    "callCenter": {
+      "name": "Call Center",
+      "nameGreek": "Κέντρο Εξυπηρέτησης",
+      "description": "Call center queues and agent management"
+    },
+    "operatorPanel": {
+      "name": "Operator Panel",
+      "nameGreek": "Πίνακας Χειριστή",
+      "description": "Visual call management interface"
+    },
+    "queues": {
+      "name": "Call Queues",
+      "nameGreek": "Ουρές Κλήσεων",
+      "description": "FIFO call queuing system"
+    }
+  }
+}

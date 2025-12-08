@@ -1,0 +1,91 @@
+{
+  "vendors": {
+    "telelogicCloudPBX": {
+      "name": "Telelogic Cloud PBX",
+      "nameGreek": "Telelogic Cloud PBX",
+      "type": "cloud",
+      "description": "Our proprietary cloud-based PBX solution with flexible pricing and comprehensive features.",
+      "descriptionGreek": "Η δική μας cloud τηλεφωνική λύση με ευέλικτη τιμολόγηση και ολοκληρωμένα χαρακτηριστικά.",
+      "pricingFile": "cloudPbxPricing.json",
+      "bestFor": [
+        "Small to medium businesses / Μικρές και μεσαίες επιχειρήσεις",
+        "Cost-conscious customers / Πελάτες με προσοχή στο κόστος",
+        "Greek market focus / Εστίαση στην ελληνική αγορά",
+        "Flexible annual contracts / Ευέλικτα ετήσια συμβόλαια"
+      ],
+      "features": {
+        "basic": [
+          "Unlimited SIP trunks",
+          "Call recording",
+          "Conference rooms",
+          "IVR menus",
+          "Ring groups"
+        ],
+        "professional": [
+          "All Basic features",
+          "Call Center",
+          "Operator Panel",
+          "Call Queues",
+          "Call Broadcast"
+        ]
+      }
+    },
+    "3cx": {
+      "name": "3CX",
+      "nameGreek": "3CX",
+      "type": "branded",
+      "description": "Industry-leading PBX software with on-premise or cloud deployment options. Recognized globally for reliability and features.",
+      "descriptionGreek": "Κορυφαίο λογισμικό PBX με δυνατότητα εγκατάστασης on-premise ή cloud. Αναγνωρισμένο παγκοσμίως για αξιοπιστία και χαρακτηριστικά.",
+      "pricingFile": "3cxPricing.json",
+      "website": "https://www.3cx.com",
+      "bestFor": [
+        "Medium to large enterprises / Μεσαίες και μεγάλες επιχειρήσεις",
+        "Multi-location businesses / Επιχειρήσεις με πολλά σημεία",
+        "On-premise deployment preference / Προτίμηση on-premise",
+        "Brand recognition important / Σημασία αναγνωρισιμότητας brand",
+        "Advanced integrations needed / Ανάγκη προηγμένων ενσωματώσεων"
+      ],
+      "features": {
+        "standard": [
+          "Web-based administration",
+          "Mobile & desktop apps",
+          "Video conferencing",
+          "Call center features",
+          "CRM integrations",
+          "WebRTC support"
+        ],
+        "pro": [
+          "All Standard features",
+          "Hot desking",
+          "Hotel PMS integration",
+          "Advanced call flows",
+          "Professional support"
+        ],
+        "enterprise": [
+          "All Pro features",
+          "Unlimited concurrent calls",
+          "Failover & redundancy",
+          "Dedicated support",
+          "Priority updates"
+        ]
+      }
+    }
+  },
+  "comparisonGuidelines": {
+    "whenToRecommendTelelogic": [
+      "Budget is primary concern / Προϋπολογισμός είναι κύριο θέμα",
+      "Simple setup preferred / Προτίμηση απλής εγκατάστασης",
+      "1-25 users / 1-25 χρήστες",
+      "Cloud-only acceptable / Αποδεκτό μόνο cloud"
+    ],
+    "whenToRecommend3CX": [
+      "Brand recognition important / Σημασία brand",
+      "25+ users / 25+ χρήστες",
+      "On-premise option needed / Ανάγκη on-premise",
+      "Complex integrations required / Απαιτούνται σύνθετες ενσωματώσεις",
+      "Multi-site deployment / Πολυ-τοποθεσιακή εγκατάσταση",
+      "Enterprise-grade SLA needed / Ανάγκη enterprise SLA"
+    ],
+    "hybridApproach": "For businesses with 20-50 users, present BOTH options with pros/cons to let customer choose based on priorities. / Για επιχειρήσεις με 20-50 χρήστες, παρουσιάστε ΚΑΙ τις δύο επιλογές με πλεονεκτήματα/μειονεκτήματα."
+  }
+}

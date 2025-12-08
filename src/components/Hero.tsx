@@ -1,19 +1,21 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, MessageSquare } from 'lucide-react';
+import { ArrowRight, MessageSquare, Sparkles } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import Autoplay from 'embla-carousel-autoplay';
+import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-bg.jpg';
 import certYealink from '@/assets/cert-yealink.png';
 import certYeastar from '@/assets/cert-yeastar.png';
 import cert3cx from '@/assets/cert-3cx.png';
 import certPanasonic from '@/assets/cert-panasonic.png';
-import phone1 from '@/assets/phone-1.png';
-import phone2 from '@/assets/phone-2.png';
-import phone3 from '@/assets/phone-3.png';
-import phone4 from '@/assets/phone-4.png';
-import phone5 from '@/assets/phone-5.png';
-import phone6 from '@/assets/phone-6.png';
+import phone1 from '@/assets/cert-3cx.png';
+import phone2 from '@/assets/cert-yeastar.png';
+import phone3 from '@/assets/m365cert.png';
+import phone4 from '@/assets/cert-yealink.png';
+import photo1 from '@/assets/awscert.png';
+import photo2 from '@/assets/azcets.png';
+import photo3 from '@/assets/copilotcert.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -32,6 +34,9 @@ export const Hero = () => {
     { image: phone4, alt: 'Fanvil Android Smart Phone' },
     { image: phone5, alt: 'Fanvil Business IP Phone' },
     { image: phone6, alt: 'Fanvil Hotel IP Phone' },
+    { image: photo1, alt: 'AWS Certified Solutions Architect' },
+    { image: photo2, alt: 'Microsoft Azure Certified' },
+    { image: photo3, alt: 'Microsoft 365 Copilot Certified' },
   ];
 
   return (
@@ -74,6 +79,15 @@ export const Hero = () => {
                 {t('hero.cta')}
                 <ArrowRight className="h-5 w-5" />
               </Button>
+              <Link to="/telena" className="w-full sm:w-auto">
+                <Button
+                  size="lg"
+                  className="gap-2 w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0 shadow-lg hover:shadow-cyan-500/50 transition-all duration-300"
+                >
+                  <Sparkles className="h-5 w-5" />
+                  Telena AI
+                </Button>
+              </Link>
               <Button
                 variant="secondary"
                 size="lg"
@@ -87,35 +101,22 @@ export const Hero = () => {
           </div>
 
           <div className="hidden lg:flex items-center justify-center">
-            <div className="grid grid-cols-2 gap-4 lg:gap-8 p-6 lg:p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
-              <div className="animate-fade-in hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
-                <img 
-                  src={certYealink} 
-                  alt="Yealink Microsoft Solutions Certified" 
-                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
-                />
-              </div>
-              <div className="animate-fade-in animation-delay-100 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
-                <img 
-                  src={certYeastar} 
-                  alt="Yeastar Certified Technician" 
-                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
-                />
-              </div>
-              <div className="animate-fade-in animation-delay-200 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
+            <div className="animate-fade-in hover:scale-105 transition-all duration-300 overflow-hidden bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 max-w-md">
+              <video 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                className="w-full h-auto object-contain drop-shadow-glow"
+              >
+                <source src="/telelogicpromo2.mp4" type="video/mp4" />
+                {/* Fallback image if video doesn't load */}
                 <img 
                   src={cert3cx} 
                   alt="3CX Advanced Certified" 
-                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
+                  className="w-64 h-64 object-contain"
                 />
-              </div>
-              <div className="animate-fade-in animation-delay-300 hover:scale-110 transition-all duration-300 p-2 lg:p-4 bg-white/5 rounded-xl">
-                <img 
-                  src={certPanasonic} 
-                  alt="Panasonic COMMS Professional Academy Certified" 
-                  className="w-28 h-28 lg:w-40 lg:h-40 object-contain drop-shadow-glow"
-                />
-              </div>
+              </video>
             </div>
           </div>
         </div>
